@@ -1,2 +1,2 @@
 # aluraplus
-Meu segundo projeto desenvolvido pela Alura com Html e CSS
+Meu segundo projeto desenvolvido com Html e CSS pela Alura
