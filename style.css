@@ -162,3 +162,43 @@ body {
 .lista__link a:active {
     color: rebeccapurple;
 }
+
+@media (max-width: 400px) {
+
+    .principal {
+        width: auto;
+    }
+    
+    .container {
+        grid-template-columns: none;
+        justify-content: center;
+        height: auto;
+    }
+
+    .container__caixa {
+        display: grid;
+        align-self: flex-start;
+        margin: 20px 6em;
+    }
+
+    .secundario {
+        display: grid;       
+        align-items: start;
+        justify-content: center;
+        margin: 10px;
+        justify-items: center;
+    }
+
+    .dispositivos__lista {
+        display: grid;
+    }
+    
+    .rodape__lista {
+        display: grid;
+        justify-content: start;
+    }
+
+    .lista__link {
+        margin: 15px 0;
+    }
+}
